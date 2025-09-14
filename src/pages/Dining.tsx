@@ -95,7 +95,7 @@ const Dining = () => {
       <HeroSection
         title="Authentic Dining"
         subtitle="Savor the rich flavors of Ghana in our welcoming restaurant and bar"
-        backgroundImage="/assets/Dining-Room-Interior.jpg"
+        backgroundImage="/assets/Kitchenette-with-Appliances.jpg"
         ctaText="Make Reservation"
         ctaLink="/contact"
       />

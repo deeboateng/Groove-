@@ -156,6 +156,18 @@ video {
   background: #FFA500;
 }
 
+/* Hide horizontal scrollbar for specific elements */
+.hide-horizontal-scrollbar::-webkit-scrollbar {
+  height: 0; /* Hide horizontal scrollbar */
+  width: 0; /* Hide vertical scrollbar, though not strictly needed for horizontal */
+  display: none; /* For good measure */
+}
+
+.hide-horizontal-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 /* Luxury hover effects */
 .luxury-hover {
   transition: all 0.3s ease;

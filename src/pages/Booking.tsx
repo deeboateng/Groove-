@@ -72,7 +72,7 @@ const Booking = () => {
       <HeroSection
         title="Book Your Stay"
         subtitle="Reserve your perfect getaway at Groove Haven Lodge with instant confirmation"
-        backgroundImage="/assets/Cozy-Bedroom-With-TV-And-Amenities.jpg"
+        backgroundImage="/assets/Groove-Haven-Lodge-Exterior.jpg"
         ctaText="Call Now"
         ctaLink="tel:+233599147359"
       />

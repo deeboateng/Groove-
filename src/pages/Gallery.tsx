@@ -164,9 +164,9 @@ const Gallery = () => {
       />
 
       {/* Gallery Navigation */}
-      <section className="py-12 bg-white border-b">
+      <section className="py-6 bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-nowrap justify-start gap-4 overflow-x-auto px-4 sm:px-0 md:justify-center md:flex-wrap hide-horizontal-scrollbar">
             {categories.map((category) => (
               <Button
                 key={category.id}
@@ -186,7 +186,7 @@ const Gallery = () => {
       </section>
 
       {/* Gallery Grid */}
-      <section className="py-20 bg-white">
+      <section className="py-10 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {filteredImages.map((image, index) => (
